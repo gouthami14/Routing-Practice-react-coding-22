@@ -1,0 +1,22 @@
+/* Write your CSS code here */
+.notFound-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.notFound-img {
+  width: 250px;
+}
+.notFound-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  line-height: 56px;
+  color: #551e53;
+}
+@media (min-width: 576px) {
+  .notFound-heading {
+    font-size: 48px;
+  }
+}
